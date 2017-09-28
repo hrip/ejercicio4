@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style/ejercicio3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<header>
+  <pagetitle>
+    <img src="images/imagen1.jpg" alt="Logo" class="image1">
+    My Account
+  </pagetitle>
+
+  <menur>
+  <top> <a href="https://help.netflix.com/en">Help</a> &ensp; </top>
+  <top> <a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a> &ensp; </top>
+  <top> <a href="https://help.netflix.com/contactus">Contact Us</a> </top>
+  </menur>
+</header>
+
+<body>
+  <section>
+    <hr>
+    <secthead> Personal information </secthead>
+    <form>
+    <personal>
+      First & Last Name:<br>
+      <input type="text" name="name"><br>
+      Birthday<br>
+      <input type="date" name="birthday"><br>
+      Photo
+      <input type="file" name="photo"><br>
+    </personal>
+    <personal>
+      Email<br>
+      <input type="email" name="email"><br>
+      Language<br>
+      <select name="language">
+        <option value="English">English</option>
+        <option value="Spanish">Spanish</option>
+        <option value="French">French</option>
+        <option value="German">German</option>
+      </select><br>
+      <img src="images/imagen2.png" class="image2">
+    </personal>
+    </form>
+  </section>
+
+  <section>
+    <hr>
+    <secthead> Billing information </secthead>
+    <billing>
+      Address<br>
+      <input type="text" name="address"><br>
+      Payment method<br>
+      <select name="type">
+        <option value="Credit">Credit card</option>
+        <option value="Debit">Debit card</option>
+        <option value="Paypal">PayPal</option>
+      </select><br>
+      <credinfo>
+        <one>
+          Number<br>
+          <input type="number" name="number"><br>
+        </one>
+        <one>
+        Valid thru<br>
+        <input type="month" name="valid"><br>
+        </one>
+        <one>
+        Code<br>
+        <input type="number" name="cvc"><br>
+        </one>
+      </credinfo>
+    </billing>
+  </section>
+</body>
+
+<foot>
+  Find us on:
+  <i class="fa fa-facebook"></i>
+  <a href="https://www.facebook.com/netflixus/?brand_redir=475822799216240"> Facebook</a>  |
+  <i class="fa fa-twitter"></i>
+  <a href="https://twitter.com/netflix?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>  |
+  <i class="fa fa-instagram"></i>
+  <a href="https://www.instagram.com/netflix/?hl=en">Instagram</a>
+  <br>
+  <copyright>Copyright 2017 Eliza Hripcsak</copyright>
+</foot>
+</html>

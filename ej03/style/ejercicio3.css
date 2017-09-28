@@ -1,0 +1,113 @@
+html {
+  font-family: "Segoe UI", sans-serif;
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+header {
+  width: 97%;
+  padding: 1%;
+}
+
+body {
+  clear: both;
+}
+
+.image1 {
+  width:90px;
+  height:auto;
+}
+
+.image2 {
+  width: 60px;
+  height: 60px;
+  padding-top: 5px;
+}
+
+pagetitle {
+  font-size:x-large;
+}
+
+menur {
+  float: right;
+  width: 100%;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+top {
+	width: 100%;
+}
+
+hr {
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 60px;
+}
+
+section {
+width:100%;
+}
+
+secthead {
+  float: left;
+  width: 98%;
+  padding: 1%;
+  text-transform: uppercase;
+}
+
+personal {
+  float: left;
+  width: 98%;
+  padding: 1%;
+  clear: right;
+}
+
+billing {
+  float: left;
+  width: 98%;
+  padding: 1%;
+  clear: right;
+  padding-bottom: 4%
+}
+
+one{
+  width: 100%;
+  float:left;
+}
+
+foot {
+  width: 97%;
+  padding: 1%;
+  float: left;
+}
+
+copyright {
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+  font-size: small;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    /* For tablets: */
+    header {border:1px solid gray; padding:1%; background-color: rgba(40, 0, 0, .2);}
+    pagetitle {width: 98%;}
+    menur {width: 100%; padding-top:20px; padding-bottom:20px;}
+    secthead {width: 98%;}
+    personal {width: 48%;}
+    billing {width: 98%;}
+    one {width: 30%;}
+    foot {width: 97%; border: 1px solid gray; background-color: rgba(40, 0, 0, .2);}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    header {border:1px solid gray; padding:1%; background-color: rgba(40, 0, 0, .2);}
+    pagetitle {width: 50%;}
+    menur {float:right; width: 235px; padding:1%}
+    secthead {width: 30%;}
+    personal {width: 32%;}
+    billing {width: 66%;}
+    one {width: 30%;}
+    foot {width: 97%; border: 1px solid gray; background-color: rgba(40, 0, 0, .2);}
+}
